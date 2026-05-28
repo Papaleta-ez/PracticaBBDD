@@ -1,11 +1,3 @@
-/* ================================================
-   SCRIPT: bd_universidad
-   Motor:  Microsoft SQL Server 2019/2022
-   Autor:  Perla Sofia Perez Lopez
-   Fecha:  27/05/2026
-   ================================================ */
-
--- ============ SECCIÓN DOWN (limpiar primero) ============
 
 USE master;
 
@@ -209,7 +201,7 @@ SELECT COLUMN_NAME
 FROM INFORMATION_SCHEMA.COLUMNS 
 WHERE TABLE_NAME = N'MATERIA';
 
---
+
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'CARRERA';
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'ESTUDIANTE';
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'MATERIA';
